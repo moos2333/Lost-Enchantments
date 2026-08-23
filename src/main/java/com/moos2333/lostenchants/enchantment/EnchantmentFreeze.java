@@ -13,6 +13,7 @@ import net.minecraft.potion.PotionEffect;
 public class EnchantmentFreeze extends Enchantment {
     public EnchantmentFreeze() {
         super(Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[] { EntityEquipmentSlot.MAINHAND });
+        this.setName("lostenchants.freeze");
     }
 
     @Override
