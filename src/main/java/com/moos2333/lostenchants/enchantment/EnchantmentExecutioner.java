@@ -39,7 +39,6 @@ public class EnchantmentExecutioner extends Enchantment {
 
     @Override
     public float calcDamageByCreature(int level, EnumCreatureAttribute creatureType) {
-        if (creatureType == EnumCreatureAttribute.UNDEFINED) return 0.0f;
-        return creatureType != EnumCreatureAttribute.ARTHROPOD ? 2.0f * level : 0.0f;
+        return creatureType == EnumCreatureAttribute.ILLAGER ? 2.5f * level : 0.0f;
     }
 }
