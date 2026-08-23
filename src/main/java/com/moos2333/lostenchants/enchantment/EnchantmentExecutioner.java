@@ -10,6 +10,7 @@ import net.minecraft.entity.EnumCreatureAttribute;
 public class EnchantmentExecutioner extends Enchantment {
     public EnchantmentExecutioner() {
         super(Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[] { EntityEquipmentSlot.MAINHAND });
+        this.setName("lostenchants.executioner");
     }
 
     @Override
